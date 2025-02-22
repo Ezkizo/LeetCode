@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pruebasLeetCode", "pruebasLeetCode\pruebasLeetCode.csproj", "{EB64CF2F-19FB-463D-9104-31888E4A3A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasAdventOfCode", "PruebaDia1Historian\PruebasAdventOfCode.csproj", "{F015F3C2-D341-45E4-9BC3-45FB600BFD9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB64CF2F-19FB-463D-9104-31888E4A3A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB64CF2F-19FB-463D-9104-31888E4A3A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB64CF2F-19FB-463D-9104-31888E4A3A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB64CF2F-19FB-463D-9104-31888E4A3A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F015F3C2-D341-45E4-9BC3-45FB600BFD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F015F3C2-D341-45E4-9BC3-45FB600BFD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F015F3C2-D341-45E4-9BC3-45FB600BFD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F015F3C2-D341-45E4-9BC3-45FB600BFD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AFAD05C-A60F-47B2-A8F5-14A9F26C737A}
+	EndGlobalSection
+EndGlobal
