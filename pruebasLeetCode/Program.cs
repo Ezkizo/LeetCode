@@ -4,41 +4,28 @@ using static pruebasLeetCode._21_MergeTwoSortedLists;
 namespace pruebasLeetCode;
 static class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
-        /*var nums = new int[] { 1, 2, 3, 4, 5 };
-        var obj = new NumberContains(nums);
-        obj.find(10);
-        obj.change(2, 10);
-        obj.change(1, 10);
-        obj.change(3, 10);
-        obj.change(5, 10);
-        obj.find(10);
-        obj.change(1, 20);
-        obj.find(10
-        var obj = new VectoresDobles();
-        obj.Primero();
-        obj.Primero();*/
+        /* PASSED
+        var obj = new _4_MedianTwoSortedArrays();
+        int[] val = { 1, 2 };
+        int[] val2 = { 3, 4 };
+        obj.FindMedianSortedArrays(val, val2);*/
 
-        //var obj = new _4_MedianTwoSortedArrays();
-        //int[] val = { 1, 2 };
-        //int[] val2 = { 3, 4 };
-        //obj.FindMedianSortedArrays(val, val2);
         /*PENDIENTE
         var obj = new _15_3Sum();
         obj.ThreeSum([-1, 0, 1, 2, -1, -4]);
         obj.ThreeSum([0, 1, 1]);
         obj.ThreeSum([0, 0, 0]);*/
 
-        //Terminar mañana, por ahora a dormirs jeje
-        /*
+        /*PENDIENTE TIEMPO SUPERADO
         var obj = new _20_ValidParentheses();
         obj.IsValid("()");
         Pendiente => obj.IsValid("({{{{}}}))");
         obj.IsValid("()[]{}");
         obj.IsValid("([)]");*/
 
-        /*
+        /*PASSED
         var obj = new _21_MergeTwoSortedLists();
 
         var first1 = new ListNodeM(1, new ListNodeM(2, new ListNodeM(4)));
@@ -48,8 +35,35 @@ static class Program
         //obj.MergeTwoLists(first1, first2);
         obj.MergeTwoLists(second1, second2);*/
 
+        /*PASSED
         var obj = new _392_IsSubsequence();
-        obj.IsSubsequence("abc", "ahbgdc");
+        obj.IsSubsequence("abc", "ahbgdc");*/
+
+        /*Pendiente tiempo máximo superado
+        var obj = new _228_SummayRanges();
+        obj.SummaryRanges([0, 1, 2, 4, 5, 7]);*/
+
+        /*PASSED 
+        var obj = new _238_ProductOfArrayExceptSelf();
+        obj.ProductExceptSelf([1, 2, 3, 4]);
+        */
+
+        /*En progreso SEMI PASS checar algunos tests 
+        var obj = new _56_MergeIntervals();
+        obj.Merge([[1, 4], [5, 6]]);
+        obj.Merge([[1, 3], [2, 6], [8, 10], [15, 18]]);
+        */
+
+        /* PASSED
+        var obj = new _26_RemoveDuplicatesFromSortedArray();
+        obj.RemoveDuplicates([1, 1, 2]);
+        */
+
+        /* 25 / 26 TESTCASES
+        var obj = new _54_SpiralMatrix();
+        obj.SpiralOrder([[3], [2]]);
+        obj.SpiralOrder([[7], [9], [6]]);
+        */
     }
 }
 
