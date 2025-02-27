@@ -59,11 +59,13 @@ static class Program
         obj.RemoveDuplicates([1, 1, 2]);
         */
 
-        /* 25 / 26 TESTCASES
+        /* PASSED
         var obj = new _54_SpiralMatrix();
-        obj.SpiralOrder([[3], [2]]);
-        obj.SpiralOrder([[7], [9], [6]]);
+        obj.SpiralOrder([[2, 3, 4], [5, 6, 7], [8, 9, 10], [11, 12, 13], [14, 15, 16]]);
         */
+
+        var obj = new _48_RotateImage();
+        obj.Rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
     }
 }
 

@@ -20,18 +20,20 @@ public class _54_SpiralMatrix
         }
         while (top <= bottom && left <= right)
         {
+            //Izquierda a derecha
             for (int index = left; index <= right; index++)
             {
                 res.Add(matrix[top][index]);
             }
             top++;
 
+            //Arriba a abajo desde la derecha
             for (int index = top; index <= bottom; index++)
             {
                 res.Add(matrix[index][right]);
             }
             right--;
-
+            //Izquierda a derecha desde última fila
             if (top <= bottom)
             {
                 for (int i = right; i >= left; i--)
@@ -40,8 +42,8 @@ public class _54_SpiralMatrix
                 }
                 bottom--;
             }
-
-            if (top <= bottom)
+            //Abajo a arriba
+            if (top < bottom)
             {
                 for (int i = bottom; i >= top; i--)
                 {
@@ -49,7 +51,7 @@ public class _54_SpiralMatrix
                 }
                 left++;
             }
-        }
+         }
         return res;
     }
 }
