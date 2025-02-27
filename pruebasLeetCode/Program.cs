@@ -64,8 +64,13 @@ static class Program
         obj.SpiralOrder([[2, 3, 4], [5, 6, 7], [8, 9, 10], [11, 12, 13], [14, 15, 16]]);
         */
 
+        /* PASSED
         var obj = new _48_RotateImage();
         obj.Rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
+        */
+        /* PENDIENTE*/
+        var obj = new _242_ValidAnagram();
+        obj.IsAnagram("anagram", "anagmar");
     }
 }
 
